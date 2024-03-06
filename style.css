@@ -1,0 +1,41 @@
+#tab-container {
+    display: flex;
+    align-items: center;
+}
+
+#tabs {
+    display: flex;
+}
+
+.tab {
+    padding: 10px;
+    margin-right: 5px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.tab.active {
+    background-color: #ddd;
+}
+
+#add-tab {
+    padding: 10px;
+}
+
+#content-area {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+    background-color: #ccc;
+}
+
+.close-tab {
+    position: relative;
+    left: 130px;
+    bottom: 10px;
+}
